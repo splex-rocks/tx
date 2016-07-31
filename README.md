@@ -6,7 +6,7 @@ Tx implements rollback-able transactions with a Promise-based API.
 # Installation
 
 ```
-npm install tx
+npm install txjs
 ```
 
 # Usage
@@ -16,7 +16,7 @@ npm install tx
 An initial transaction step is created by calling the Tx constructor:
 
 ```javascript
-const Tx = require('tx')
+const Tx = require('txjs')
 
 let tx = new Tx(
   function foward() {

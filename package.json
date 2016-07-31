@@ -1,5 +1,5 @@
 {
-  "name": "tx",
+  "name": "txjs",
   "version": "0.1.0",
   "description": "Tx: chainable rollback-able routines",
   "main": "lib/tx.js",
