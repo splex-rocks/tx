@@ -34,7 +34,6 @@ Or you can chain to a previous step, just as you would with a Promise:
 let tx = new Tx(step1Forward, step1Backward)
 tx.chain(step2Forward)
 .chain(step3Forward, step3Backward)
-)
 ```
 
 Notice that the backward routine is optional. Keep in mind that if a step
