@@ -2,6 +2,14 @@
   "name": "txjs",
   "version": "0.1.0",
   "description": "Tx: chainable rollback-able routines",
+  "homepage": "https://github.com/splex-rocks/tx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/splex-rocks/tx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/splex-rocks/tx/issues"
+  },
   "main": "lib/tx.js",
   "scripts": {
     "test": "node_modules/.bin/mocha"
@@ -10,8 +18,13 @@
     "transaction",
     "rollback"
   ],
-  "author": "Esteban Invernizzi <invernizzie@gmail.com>",
+  "author": {
+    "name": "Esteban Invernizzi",
+    "email": "invernizzie@gmail.com",
+    "url": "https://invernizzie.github.io/"
+  },
   "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.5.3"
