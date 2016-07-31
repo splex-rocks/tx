@@ -1,7 +1,7 @@
 {
   "name": "tx",
   "version": "0.1.0",
-  "description": "Transaction: chainable rollback-able routines",
+  "description": "Tx: chainable rollback-able routines",
   "main": "lib/tx.js",
   "scripts": {
     "test": "node_modules/.bin/mocha"
