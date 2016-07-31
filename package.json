@@ -1,6 +1,6 @@
 {
   "name": "txjs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tx: chainable rollback-able routines",
   "homepage": "https://github.com/splex-rocks/tx",
   "repository": {
